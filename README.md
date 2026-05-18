@@ -1,16 +1,38 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**ipanalytics/ipanalytics** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  <p>🌐 Network data engineer & analyst focused on <b>IP/VPN/ASN</b> intelligence, <b>MMDB</b> parsing, and routing analytics.</p>
+  
+  <p>
+    <a href="https://github.com/ipanalytics?tab=repositories"><img src="https://img.shields.io/badge/📦_Repos-View%20All-blue?style=flat-square" /></a>
+  </p>
+</div>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠️ Stack & Tools
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,go,linux,docker,git,githubactions&perline=10" />
+</p>
+
+**Data & Networking:** `MaxMind MMDB` • `BGP/ASN feeds` • `IP reputation` • `GeoIP` 
+
+---
+
+### 📊 GitHub Stats
+<div align="center">
+
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ipanalytics&theme=dark&hide_border=true" height="150" />
+</div>
+
+---
+
+### 🌍 What I'm working on
+- 🔍 Parsing and enriching MMDB/ASN datasets
+- 🛡️ VPN traffic analysis & IP reputation scoring
+- 📈 Network telemetry dashboards 
+- 🤖 BGP routing automation & alerting pipelines
+
+> 💡 Open to collaborations, issue reports, and network dataset sharing. Start a Discussion!
+
+---
+
