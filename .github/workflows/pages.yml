@@ -34,12 +34,11 @@ jobs:
 
       - name: Validate static files
         run: |
-          test -f docs/index.html
-          test -f docs/geoforge/index.html
-          test -f docs/styles.css
-          test -f docs/robots.txt
-          test -f docs/sitemap.xml
-          test -f docs/.nojekyll
+          test -f index.html
+          test -f styles.css
+          test -f robots.txt
+          test -f sitemap.xml
+
 
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
