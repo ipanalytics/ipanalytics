@@ -6,7 +6,12 @@ on:
       - main
       - master
     paths:
-      - "docs/**"
+      - "index.html"
+      - "styles.css"
+      - "robots.txt"
+      - "sitemap.xml"
+      - "assets/**"
+      - "favicon.svg"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -25,6 +30,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -39,11 +45,10 @@ jobs:
           test -f robots.txt
           test -f sitemap.xml
 
-
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs
+          path: .
 
       - name: Deploy
         id: deployment
