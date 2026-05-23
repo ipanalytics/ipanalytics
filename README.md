@@ -1,31 +1,31 @@
+
 <div align="center">
 
-# IP Analytics - IP Intelligence, VPN Detection, ASN & GeoIP Engineering
+# IP Analytics
 
 <p>
-  <img src="./assets/banner.png" alt="ipanalytics banner" width="100%">
+  <img src="./assets/banner.png" alt="IP Analytics banner" width="100%">
 </p>
 
-<p>
-  <strong>Open-source IP intelligence for VPN infrastructure research, ASN analytics, GeoIP/MMDB engineering, crawler visibility, Tor monitoring, and reputation data pipelines.</strong>
-</p>
+**IP intelligence, ASN analytics, GeoIP/MMDB engineering, routing security, and infrastructure research**
 
-<p>
-  I build datasets, static dashboards, CLI tooling, and enrichment pipelines for teams working with IP reputation, fraud detection, OSINT, threat intelligence, network telemetry, and routing metadata.
-</p>
+Open datasets, static dashboards, MMDB tooling, enrichment pipelines, routing analytics, and operational network intelligence workflows.
 
 <p>
   <a href="https://github.com/ipanalytics?tab=repositories">
     <img src="https://img.shields.io/badge/repositories-view_all-2563eb?style=for-the-badge&logo=github" alt="Repositories">
   </a>
+
   <a href="https://github.com/ipanalytics/VPN-Infrastructure-Intelligence-Lab">
-    <img src="https://img.shields.io/badge/VPN_Intelligence-Lab-7c3aed?style=for-the-badge" alt="VPN Infrastructure Intelligence Lab">
+    <img src="https://img.shields.io/badge/VPN_Atlas-Open_Data-7c3aed?style=for-the-badge" alt="VPN Infrastructure Intelligence Lab">
   </a>
-  <a href="https://github.com/ipanalytics/IP-Knowledge-Layer">
-    <img src="https://img.shields.io/badge/IP_Data-Knowledge_Layer-0891b2?style=for-the-badge" alt="IP Knowledge Layer">
-  </a>
+
   <a href="https://github.com/ipanalytics/GeoForge">
     <img src="https://img.shields.io/badge/GeoIP-GeoForge-f97316?style=for-the-badge" alt="GeoForge">
+  </a>
+
+  <a href="https://github.com/ipanalytics/ASN-Signal-Graph">
+    <img src="https://img.shields.io/badge/ASN-ASN--Signal--Graph-0891b2?style=for-the-badge" alt="ASN Signal Graph">
   </a>
 </p>
 
@@ -33,141 +33,145 @@
 
 ---
 
-## What I Work On
+# Focus Areas
 
-- IP intelligence and enrichment pipelines with source provenance and confidence scoring
-- VPN, proxy, Tor, crawler, cloud, CDN, hosting, and abuse infrastructure analysis
-- ASN attribution, hosting dependency mapping, and infrastructure relationship graphs
-- GeoIP and MaxMind MMDB tooling for compilation, validation, diffing, and safe updates
-- Static dashboards and GitHub-native publishing for open network intelligence datasets
-- Operational exports for SIEM enrichment, fraud detection, OSINT, and security analytics
-
----
-
-## Active Projects
-
-### VPN and Infrastructure Intelligence
-
-| Project | Status | Description |
-|---|---:|---|
-| [VPN-Infrastructure-Intelligence-Lab](https://github.com/ipanalytics/VPN-Infrastructure-Intelligence-Lab) | Active | Aggregate VPN infrastructure intelligence dataset and interactive dashboard for provider, country, ASN, relationship, archetype, and hosting dependency analysis without publishing raw endpoint data. |
-| [ASN-Signal-Graph](https://github.com/ipanalytics/ASN-Signal-Graph) | Active | Public ASN infrastructure signal aggregation for VPN overlap, Tor visibility, public feed exposure, and defensive network analytics. |
-| [IP-Knowledge-Layer](https://github.com/ipanalytics/IP-Knowledge-Layer) | Active | Open IP enrichment layer for CIDR, ASN, cloud, CDN, crawler, Tor, and VPN-adjacent network context with source provenance and confidence. |
-| [blackroute](https://github.com/ipanalytics/blackroute) | Active | Security intelligence pipeline for aggregating hostile IP infrastructure, abuse feeds, anonymizers, and attack telemetry into runtime lookup databases. |
-
-### Dashboards and Visibility
-
-| Project | Status | Description |
-|---|---:|---|
-| [CrawlerScope](https://github.com/ipanalytics/CrawlerScope) | Active | Interactive crawler IP intelligence dashboard for search bots, AI crawlers, user-triggered fetchers, monitoring probes, and scanner infrastructure. |
-| [Tor-Radar](https://github.com/ipanalytics/Tor-Radar) | Active | Hourly public Tor relay data collection with compact snapshots and a browser-only dashboard, without a database or backend. |
-
-### GeoIP and MMDB Tooling
-
-| Project | Status | Description |
-|---|---:|---|
-| [GeoForge](https://github.com/ipanalytics/GeoForge) | Active | Local IPv4 GeoIP database compiler combining DB-IP Lite, MaxMind GeoLite2, IP2Location LITE, Sypex Geo, GeoNames, geofeeds, RIR, and WHOIS signals. |
-| [MMDBForge](https://github.com/ipanalytics/MMDBForge) | Active | Developer toolkit for inspecting, validating, diffing, and explaining custom MaxMind DB and GeoIP MMDB files. |
-| [MMDB-WatchTower](https://github.com/ipanalytics/MMDB-WatchTower) | Active | Production-safe MaxMind DB updater with verification, smoke tests, atomic swaps, rollback, systemd support, and Prometheus metrics. |
-
+- IP and ASN enrichment with provenance and confidence scoring
+- VPN, proxy, Tor, crawler, cloud, CDN, and hosting infrastructure analysis
+- BGP, RPKI, ROA, and routing-security visibility
+- GeoIP/MMDB compilation, validation, diffing, and operational tooling
+- Geofeed discovery and routing-aware geolocation enrichment
+- Static dashboards, APIs, and GitHub-native publishing workflows
+- Operational datasets for SIEM, fraud detection, OSINT, and security analytics
 
 ---
 
-## Use Cases
+# Infrastructure Ecosystem
 
-- VPN and proxy detection research
-- IP reputation enrichment for fraud and abuse systems
-- ASN and hosting provider risk analysis
-- Tor relay and exit-node visibility
-- Crawler, AI bot, scanner, and monitoring probe classification
-- GeoIP/MMDB quality checks and reproducible database builds
-- SIEM, SOC, OSINT, and threat intelligence enrichment workflows
+## Infrastructure Intelligence
+
+| Project | Description |
+|---|---|
+| [IP-Knowledge-Layer](https://github.com/ipanalytics/IP-Knowledge-Layer) | Open enrichment layer for CIDR, ASN, cloud, CDN, crawler, Tor, and VPN-adjacent network context with provenance and confidence. |
+| [ASN-Signal-Graph](https://github.com/ipanalytics/ASN-Signal-Graph) | ASN-level infrastructure signal aggregation for VPN overlap, Tor visibility, public-feed exposure, and defensive analytics. |
+| [blackroute](https://github.com/ipanalytics/blackroute) | Local-first reputation pipeline for hostile infrastructure, abuse feeds, anonymizers, scanners, and attack telemetry. |
+| [ASN-VPN-Network-Intelligence](https://github.com/ipanalytics/ASN-VPN-Network-Intelligence) | Lightweight VPN infrastructure overlap and ASN/provider enrichment datasets. |
 
 ---
 
-## Infrastructure Model
+## VPN Infrastructure Research
+
+| Project | Description |
+|---|---|
+| [VPN-Infrastructure-Intelligence-Lab](https://github.com/ipanalytics/VPN-Infrastructure-Intelligence-Lab) | Aggregate VPN infrastructure intelligence dashboard for provider, ASN, country, and hosting dependency analysis. |
+| [vpn-provider-overlap-intelligence](https://github.com/ipanalytics/vpn-provider-overlap-intelligence) | Shared infrastructure and provider overlap analysis across ASNs, prefixes, and hosting networks. |
+
+---
+
+## Routing and Internet Measurements
+
+| Project | Description |
+|---|---|
+| [RouteSentinel](https://github.com/ipanalytics/RouteSentinel) | Daily route-security snapshot analyzer for BGP RIB dumps and RPKI VRP datasets. |
+| [GeoFeed-Harvester](https://github.com/ipanalytics/GeoFeed-Harvester) | RFC 8805 geofeed discovery, validation, provenance tracking, and BGP visibility analysis from public RIR data. |
+
+---
+
+## Dashboards and Visibility
+
+| Project | Description |
+|---|---|
+| [CrawlerScope](https://github.com/ipanalytics/CrawlerScope) | Interactive crawler IP intelligence dashboard for AI crawlers, search bots, scanners, and monitoring probes. |
+| [Tor-Radar](https://github.com/ipanalytics/Tor-Radar) | Browser-only Tor relay intelligence dashboard with compact historical snapshots and relay metadata. |
+
+---
+
+## GeoIP and MMDB Tooling
+
+| Project | Description |
+|---|---|
+| [GeoForge](https://github.com/ipanalytics/GeoForge) | Consensus-based GeoIP compiler combining GeoLite2, DB-IP, IP2Location, geofeeds, RIR, and WHOIS signals. |
+| [MMDBForge](https://github.com/ipanalytics/MMDBForge) | Toolkit for inspecting, validating, diffing, and analyzing MaxMind DB and custom MMDB datasets. |
+| [MMDB-WatchTower](https://github.com/ipanalytics/MMDB-WatchTower) | Production-safe MMDB updater with validation, rollback, atomic swaps, smoke tests, and Prometheus metrics. |
+
+---
+
+## Privacy and Security Tooling
+
+| Project | Description |
+|---|---|
+| [PrefixCloak](https://github.com/ipanalytics/PrefixCloak) | Prefix-preserving IPv4/IPv6 sanitizer for logs, SIEM exports, telemetry, and subnet-safe anonymization workflows. |
+
+---
+
+# Infrastructure Model
 
 ```text
 IP ranges
   -> CIDR normalization
   -> ASN attribution
+  -> BGP and RPKI validation
+  -> geofeed discovery
   -> hosting and cloud classification
   -> VPN / proxy / Tor / crawler signals
   -> GeoIP and MMDB enrichment
   -> reputation and abuse context
-  -> dashboards, CSV exports, and local lookup databases
-```
+  -> dashboards, CSV exports, static APIs, and lookup databases
+````
 
 ---
 
-## Stack
+# Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,go,js,html,linux,docker,git,githubactions&perline=10" alt="Python, Go, JavaScript, HTML, Linux, Docker, Git, GitHub Actions">
+  <img src="https://skillicons.dev/icons?i=python,go,js,html,linux,docker,git,githubactions&perline=10" alt="Stack">
 </p>
 
-**Languages:** `Go` `Python` `JavaScript` `HTML`  
-**Formats:** `CSV` `JSON` `JSONL` `Parquet` `MMDB` `CIDR`  
-**Network metadata:** `ASN` `BGP` `RIR` `WHOIS` `GeoIP` `GeoFeed`  
-**Signals:** `VPN` `Proxy` `Tor` `Crawler` `Cloud` `CDN` `Hosting` `IP reputation`
+### Formats
+
+`CSV` `JSON` `JSONL` `Parquet` `MMDB` `CIDR`
+
+### Network Metadata
+
+`ASN` `BGP` `RPKI` `ROA` `RIR` `WHOIS` `GeoIP` `GeoFeed`
+
+### Infrastructure Signals
+
+`VPN` `Proxy` `Tor` `Crawler` `Cloud` `CDN` `Hosting` `Scanner` `Reputation`
 
 ---
 
-## Current Work
+# Current Work
 
-- Expanding [VPN-Infrastructure-Intelligence-Lab](https://github.com/ipanalytics/VPN-Infrastructure-Intelligence-Lab) as the main VPN infrastructure research and dashboard project
-- Building ASN-level signal aggregation for defensive infrastructure analytics
-- Improving crawler, AI bot, Tor, hosting, and public feed visibility
-- Developing local-first GeoIP, MMDB, and reputation database tooling
-- Publishing compact operational datasets for enrichment pipelines and browser-only dashboards
-
----
-
-## Design Principles
-
-| Principle | Description |
-|---|---|
-| Reproducibility | Deterministic dataset generation with auditable inputs. |
-| Source transparency | Preserve provenance, confidence, and source context where possible. |
-| Defensive focus | Infrastructure intelligence for security, fraud, OSINT, and network analytics workflows. |
-| Operational utility | Lightweight exports for SIEM enrichment, local lookups, and repeatable pipelines. |
-| Static publishing | Prefer GitHub Pages, static dashboards, and repository-native data releases. |
-| Privacy-aware research | Publish aggregate infrastructure intelligence without exposing raw VPN endpoint inventories. |
+* Expanding ASN-level infrastructure signal aggregation
+* Building routing-security visibility around BGP and RPKI validation
+* Developing geofeed discovery and provenance pipelines
+* Improving VPN overlap analysis without publishing raw endpoint inventories
+* Building local-first GeoIP, MMDB, and reputation tooling
+* Publishing compact operational datasets for SIEM and analytics workflows
 
 ---
 
-## GitHub Analytics
+# Design Principles
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ipanalytics&theme=github_dark" alt="GitHub profile summary">
-</p>
-
-
+| Principle           | Description                                            |
+| ------------------- | ------------------------------------------------------ |
+| Reproducibility     | Deterministic dataset generation with auditable inputs |
+| Source Transparency | Preserve provenance and confidence metadata            |
+| Operational Utility | Lightweight exports for pipelines and local lookups    |
+| Static Deployment   | Prefer GitHub-native dashboards and APIs               |
+| Defensive Focus     | Infrastructure intelligence for analytical workflows   |
 
 ---
 
-## Collaboration
+# Collaboration
 
 Open to collaboration around:
 
-- IP intelligence datasets
-- VPN, proxy, Tor, and crawler infrastructure research
-- ASN attribution and hosting dependency analysis
-- GeoIP and MMDB quality engineering
-- IP reputation and abuse-feed enrichment
-- SIEM, fraud detection, OSINT, and network analytics integrations
+* IP intelligence datasets
+* ASN and routing analytics
+* VPN and Tor infrastructure research
+* crawler and AI fetcher visibility
+* GeoIP/MMDB quality engineering
+* RPKI and BGP measurements
+* fraud detection and SIEM enrichment
 
-If you work with IP telemetry, routing metadata, fraud systems, abuse detection, or operational network analytics, open an issue or discussion in the relevant repository.
-
----
-
-## Licensing
-
-Licensing varies by repository depending on source constraints and redistribution requirements.
-
-Common patterns:
-
-- Code: `MIT` or `Apache-2.0`
-- Generated datasets: `CC0-1.0`, `CC-BY-4.0`, or repository-specific terms
-
-See each repository license before redistributing derived data.
