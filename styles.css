@@ -9,10 +9,10 @@
   --text:#e9edf3;
   --muted:#94a1b3;
   --faint:#5d6a7a;
-  --signal:#4d90ff;
-  --signal-2:#86b2ff;
-  --signal-soft:rgba(77,144,255,.12);
-  --signal-line:rgba(77,144,255,.34);
+  --signal:#f2a93b;
+  --signal-2:#ffc46b;
+  --signal-soft:rgba(242,169,59,.12);
+  --signal-line:rgba(242,169,59,.32);
   --radius:16px;
   --maxw:1180px;
   --mono:"JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
@@ -35,8 +35,8 @@ body{
 .backdrop{
   position:fixed; inset:0; z-index:-2; pointer-events:none;
   background:
-    radial-gradient(1100px 620px at 78% -8%, rgba(77,144,255,.12), transparent 60%),
-    radial-gradient(900px 700px at 6% 4%, rgba(80,170,255,.05), transparent 55%),
+    radial-gradient(1100px 620px at 78% -8%, rgba(242,169,59,.11), transparent 60%),
+    radial-gradient(900px 700px at 6% 4%, rgba(80,140,210,.05), transparent 55%),
     linear-gradient(180deg, var(--ink-800), var(--ink-900) 60%);
 }
 .grid-tex{
@@ -66,7 +66,7 @@ header.nav{
 .brand .mark{
   width:30px; height:30px; border-radius:8px; flex:none;
   border:1px solid var(--signal-line);
-  background:radial-gradient(circle at 30% 25%, rgba(77,144,255,.30), transparent 70%), var(--panel);
+  background:radial-gradient(circle at 30% 25%, rgba(242,169,59,.28), transparent 70%), var(--panel);
   display:grid; place-items:center;
   font-family:var(--mono); font-weight:700; font-size:13px; color:var(--signal-2);
 }
@@ -79,7 +79,7 @@ header.nav{
   transition:.18s;
 }
 .nav-links a:hover{color:var(--text); background:var(--line)}
-.nav-links a.cta{ color:#fff; background:var(--signal); font-weight:700; }
+.nav-links a.cta{ color:#1a1206; background:var(--signal); font-weight:700; }
 .nav-links a.cta:hover{background:var(--signal-2)}
 @media(max-width:560px){ .nav-links a.ghost{display:none} }
 
@@ -108,7 +108,7 @@ h1.title em{font-style:normal; color:var(--signal)}
   font-family:var(--mono); font-size:13.5px; font-weight:500;
   padding:13px 20px; border-radius:11px; transition:.2s; border:1px solid transparent;
 }
-.btn.primary{background:var(--signal); color:#fff; font-weight:700; box-shadow:0 14px 44px -16px var(--signal)}
+.btn.primary{background:var(--signal); color:#1a1206; font-weight:700; box-shadow:0 14px 44px -16px var(--signal)}
 .btn.primary:hover{background:var(--signal-2); transform:translateY(-2px)}
 .btn.ghost{border-color:var(--line-2); color:var(--text); background:rgba(255,255,255,.02)}
 .btn.ghost:hover{border-color:var(--signal-line); background:var(--signal-soft); transform:translateY(-2px)}
@@ -177,7 +177,7 @@ h1.title em{font-style:normal; color:var(--signal)}
   border:1px solid var(--line); background:transparent; padding:7px 12px; border-radius:999px; cursor:pointer; transition:.16s;
 }
 .tagbtn:hover{color:var(--text); border-color:var(--line-2)}
-.tagbtn.active{background:var(--signal); color:#fff; border-color:var(--signal); font-weight:700}
+.tagbtn.active{background:var(--signal); color:#1a1206; border-color:var(--signal); font-weight:700}
 
 .cards{display:grid; grid-template-columns:repeat(auto-fill, minmax(330px,1fr)); gap:16px}
 .card{
@@ -190,7 +190,7 @@ h1.title em{font-style:normal; color:var(--signal)}
   content:""; position:absolute; left:0; top:0; height:100%; width:3px;
   background:linear-gradient(180deg, var(--signal), transparent); opacity:0; transition:.24s;
 }
-.card:hover{transform:translateY(-4px); border-color:var(--signal-line); box-shadow:0 26px 60px -38px rgba(77,144,255,.6)}
+.card:hover{transform:translateY(-4px); border-color:var(--signal-line); box-shadow:0 26px 60px -38px rgba(242,169,59,.55)}
 .card:hover::before{opacity:1}
 .card .top{display:flex; align-items:flex-start; justify-content:space-between; gap:10px; margin-bottom:11px}
 .card h3{font-family:var(--display); font-weight:700; font-size:18.5px; letter-spacing:-.015em; line-height:1.15}
